@@ -7,25 +7,21 @@ def pods()
 end
 
 target 'instanceMethods' do
-  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
-
   pods()
-
 end
 
 target 'simpleClosures' do
-  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
-
   pods()
-
 end
 
 target 'scopes' do
-  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
-
   pods()
+end
 
+target 'timers' do
+    use_frameworks!
+    pods()
 end

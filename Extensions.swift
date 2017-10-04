@@ -43,3 +43,11 @@ extension UITableView {
         self.register(cellType, forCellReuseIdentifier: String(describing: cellType))
     }
 }
+
+extension UIColor {
+    static func random() -> UIColor {
+        let random255 = { CGFloat(arc4random_uniform(255)) / 255.0 }
+        let (r, g, b) = (random255(), random255(), random255())
+        return UIColor(red: r, green: g, blue: b, alpha: 1)
+    }
+}

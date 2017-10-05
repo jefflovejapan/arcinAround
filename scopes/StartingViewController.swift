@@ -22,7 +22,6 @@ class StartingViewController: UIViewController {
         let button = UIButton.button(withText: "Push", pinnedToCenterOf: view)
         button.rx.tap.asDriver().drive(onNext: { _ in
             let vc = StarWarsViewController()
-            // TODO: need view controller
             self.navigationController?.pushViewController(vc, animated: true)
         })
             .disposed(by: disposeBag)

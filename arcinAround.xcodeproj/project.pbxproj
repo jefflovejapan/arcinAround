@@ -15,7 +15,7 @@
 		1F3C0D511F84FE48002C81A4 /* AnotherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3C0D501F84FE48002C81A4 /* AnotherViewController.swift */; };
 		1F3C0D531F84FE64002C81A4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3C0D521F84FE64002C81A4 /* Extensions.swift */; };
 		1F3C0D8C1F850E15002C81A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3C0D8B1F850E15002C81A4 /* AppDelegate.swift */; };
-		1F3C0D8E1F850E15002C81A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3C0D8D1F850E15002C81A4 /* ViewController.swift */; };
+		1F3C0D8E1F850E15002C81A4 /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3C0D8D1F850E15002C81A4 /* TextViewController.swift */; };
 		1F3C0D911F850E15002C81A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F3C0D8F1F850E15002C81A4 /* Main.storyboard */; };
 		1F3C0D931F850E15002C81A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F3C0D921F850E15002C81A4 /* Assets.xcassets */; };
 		1F3C0D961F850E15002C81A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F3C0D941F850E15002C81A4 /* LaunchScreen.storyboard */; };
@@ -37,6 +37,7 @@
 		1FF5E5C81F859E500001C73B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FF5E5C61F859E500001C73B /* LaunchScreen.storyboard */; };
 		1FF5E5CE1F859E790001C73B /* StartingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF5E5CD1F859E790001C73B /* StartingViewController.swift */; };
 		1FF5E5CF1F859FAA0001C73B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3C0D521F84FE64002C81A4 /* Extensions.swift */; };
+		1FF5E5D11F85B2D10001C73B /* TextViewController+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF5E5D01F85B2D10001C73B /* TextViewController+Layout.swift */; };
 		70A90868B2B5587DFF319B08 /* Pods_instanceMethods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6154A26F37A4717663A78625 /* Pods_instanceMethods.framework */; };
 		B16E9896F7C57767DB1709CB /* Pods_timers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC5173950E08247A3B6EAC2E /* Pods_timers.framework */; };
 		F6599F5B6D3F279BBEC67014 /* Pods_simpleClosures.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08CC3322DAC86B180555B0F4 /* Pods_simpleClosures.framework */; };
@@ -57,7 +58,7 @@
 		1F3C0D521F84FE64002C81A4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		1F3C0D891F850E14002C81A4 /* instanceMethods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = instanceMethods.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F3C0D8B1F850E15002C81A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1F3C0D8D1F850E15002C81A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F3C0D8D1F850E15002C81A4 /* TextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
 		1F3C0D901F850E15002C81A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F3C0D921F850E15002C81A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F3C0D951F850E15002C81A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -81,6 +82,7 @@
 		1FF5E5C71F859E500001C73B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FF5E5C91F859E500001C73B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FF5E5CD1F859E790001C73B /* StartingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartingViewController.swift; sourceTree = "<group>"; };
+		1FF5E5D01F85B2D10001C73B /* TextViewController+Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextViewController+Layout.swift"; sourceTree = "<group>"; };
 		3BDA9C899A184B137D56A2FD /* Pods-instanceMethods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instanceMethods.release.xcconfig"; path = "Pods/Target Support Files/Pods-instanceMethods/Pods-instanceMethods.release.xcconfig"; sourceTree = "<group>"; };
 		6154A26F37A4717663A78625 /* Pods_instanceMethods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_instanceMethods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		96E6D867ADED07FE055D36EA /* Pods-simpleClosures.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-simpleClosures.release.xcconfig"; path = "Pods/Target Support Files/Pods-simpleClosures/Pods-simpleClosures.release.xcconfig"; sourceTree = "<group>"; };
@@ -199,7 +201,8 @@
 			children = (
 				1F3C0D8B1F850E15002C81A4 /* AppDelegate.swift */,
 				1F7A08CB1F8515DF00BAD032 /* StartingViewController.swift */,
-				1F3C0D8D1F850E15002C81A4 /* ViewController.swift */,
+				1F3C0D8D1F850E15002C81A4 /* TextViewController.swift */,
+				1FF5E5D01F85B2D10001C73B /* TextViewController+Layout.swift */,
 				1F3C0D8F1F850E15002C81A4 /* Main.storyboard */,
 				1F3C0D921F850E15002C81A4 /* Assets.xcassets */,
 				1F3C0D941F850E15002C81A4 /* LaunchScreen.storyboard */,
@@ -644,7 +647,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F3C0D8E1F850E15002C81A4 /* ViewController.swift in Sources */,
+				1F3C0D8E1F850E15002C81A4 /* TextViewController.swift in Sources */,
+				1FF5E5D11F85B2D10001C73B /* TextViewController+Layout.swift in Sources */,
 				1F7A08C91F850EBC00BAD032 /* Extensions.swift in Sources */,
 				1F7A08CC1F8515DF00BAD032 /* StartingViewController.swift in Sources */,
 				1F3C0D8C1F850E15002C81A4 /* AppDelegate.swift in Sources */,

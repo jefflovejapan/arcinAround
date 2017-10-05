@@ -25,7 +25,7 @@ class StarWarsViewController: UITableViewController {
         getPerson()
             .map { return $0.films.map { [weak self] filmURL -> Observable<Film> in
                 guard let welf = self else { return Observable.error("no self!") }
-                    return welf.getFilm(url: filmURL)
+                return welf.getFilm(url: filmURL)
                 }
             }
             .map { Observable.combineLatest($0, Array.init) }
